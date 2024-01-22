@@ -58,25 +58,6 @@ export const books = [
     ],
   },
   {
-    id: 'd0d70b05-d48f-4d83-b1e8-0b4dd984c97d',
-    name: 'A revolução dos bichos',
-    author: 'George Orwell',
-    summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/a-revolucao-dos-bixos.jpg',
-    total_pages: 350,
-    categories: [
-      {
-        name: 'Alegoria',
-        id: 'a1d0ee25-9c9a-49c8-84eb-7af1e0dd356d',
-      },
-      {
-        name: 'Fábula',
-        id: '997f8a10-21fb-4c80-bd16-17e8b79a31a3',
-      },
-    ],
-  },
-  {
     id: '48b86ac2-014e-401d-bcbb-331ce5f4a457',
     name: 'O fim da eternidade',
     author: 'Isaac Asimov',

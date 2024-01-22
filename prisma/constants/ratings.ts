@@ -34,13 +34,6 @@ export const ratings = [
   },
   {
     id: randomUUID(),
-    rate: 4,
-    description: 'Nec tempor nunc in egestas.',
-    book_id: 'd0d70b05-d48f-4d83-b1e8-0b4dd984c97d',
-    user_id: 'c296c6c0-5c59-40dd-aa8a-ef2b015b7502',
-  },
-  {
-    id: randomUUID(),
     rate: 5,
     description:
       'Semper et sapien proin vitae nisi. Feugiat neque integer donec et aenean posuere amet ultrices. Cras fermentum id pulvinar varius leo a in. Amet libero pharetra nunc elementum fringilla velit ipsum. Sed vulputate massa velit nibh',
