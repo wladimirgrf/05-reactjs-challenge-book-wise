@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Star } from '@phosphor-icons/react'
 
 import {
   AuthorInfo,
@@ -13,7 +14,6 @@ import {
 
 import bookImage from '../../../public/images/books/arquitetura-limpa.png'
 import { Avatar } from '../Avatar'
-import { Star } from '@phosphor-icons/react'
 
 export function AuthorCard() {
   return (

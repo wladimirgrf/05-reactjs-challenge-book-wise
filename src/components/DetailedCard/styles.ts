@@ -7,28 +7,17 @@ export const CardContainer = styled('article', {
   borderRadius: '$md',
 
   display: 'flex',
-  flexDirection: 'column',
-  backgroundColor: '$gray700',
+  backgroundColor: '$gray600',
+  gap: '$5',
 })
 
-export const CardHeader = styled('header', {
-  display: 'grid',
-  gridTemplateColumns: 'auto 1fr auto',
-  gap: '$4',
-})
-
-export const AuthorInfo = styled('div', {
+export const BookRating = styled('div', {
   display: 'flex',
-  flexDirection: 'column',
-  gap: '$2',
+  justifyContent: 'space-between',
 
   span: {
     fontSize: '$sm',
-    color: '$gray400',
-  },
-
-  strong: {
-    fontWeight: '$regular',
+    color: '$gray300',
   },
 })
 
@@ -37,12 +26,6 @@ export const RatingStars = styled('div', {
   flexDirection: 'row',
   gap: '$1',
   color: '$purple100',
-})
-
-export const CardBody = styled('div', {
-  display: 'flex',
-  gap: '$5',
-  marginTop: '$8',
 })
 
 export const BookDetails = styled('div', {
@@ -69,6 +52,6 @@ export const BookDescription = styled('p', {
   overflow: 'hidden',
   display: '-webkit-box',
   '-webkit-box-orient': 'vertical',
-  '-webkit-line-clamp': 4,
+  '-webkit-line-clamp': 2,
   whiteSpace: 'pre-wrap',
 })

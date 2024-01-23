@@ -1,4 +1,4 @@
-import { AuthorCard } from '@/components/AuthorCard'
+import { DetailedCard } from '@/components/DetailedCard'
 import { NavigationMenu } from '@/components/NavigationMenu'
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <NavigationMenu />
 
-      <AuthorCard />
+      <DetailedCard />
     </>
   )
 }
