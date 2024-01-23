@@ -1,6 +1,6 @@
 import { styled } from '@/styles/global'
 
-export const NavigationMenuContainer = styled('nav', {
+export const MenuContainer = styled('nav', {
   width: 232,
   height: 988,
   display: 'flex',

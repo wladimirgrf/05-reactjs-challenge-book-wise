@@ -6,13 +6,13 @@ import {
   LoginBox,
   NavigationBox,
   NavigationLink,
-  NavigationMenuContainer,
+  MenuContainer,
 } from './styles'
 import Logo from '../../assets/logo.svg'
 
 export function NavigationMenu() {
   return (
-    <NavigationMenuContainer>
+    <MenuContainer>
       <Image src={Logo} alt="Book Wise Logo" />
 
       <NavigationBox>
@@ -29,6 +29,6 @@ export function NavigationMenu() {
           Login <SignIn />
         </Button>
       </LoginBox>
-    </NavigationMenuContainer>
+    </MenuContainer>
   )
 }
