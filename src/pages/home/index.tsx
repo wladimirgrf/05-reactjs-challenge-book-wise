@@ -1,4 +1,4 @@
-import { DetailedCard } from '@/components/DetailedCard'
+import { CompactCard } from '@/components/CompactCard'
 import { NavigationMenu } from '@/components/NavigationMenu'
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <NavigationMenu />
 
-      <DetailedCard />
+      <CompactCard size="md" />
     </>
   )
 }
