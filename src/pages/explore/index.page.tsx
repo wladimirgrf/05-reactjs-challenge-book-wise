@@ -2,7 +2,15 @@ import { Binoculars } from '@phosphor-icons/react'
 
 import { SearchInput } from '@/components/SearchInput'
 import { NavigationMenu } from '@/components/NavigationMenu'
-import { Container, ExploreSection, Header } from './styles'
+import { CompactCard } from '@/components/CompactCard'
+import {
+  BookList,
+  CategoryItem,
+  CategoryList,
+  Container,
+  ExploreSection,
+  Header,
+} from './styles'
 
 export default function Explore() {
   return (
@@ -17,6 +25,20 @@ export default function Explore() {
 
           <SearchInput _size="md" />
         </Header>
+
+        <CategoryList>
+          <CategoryItem>All</CategoryItem>
+          <CategoryItem active>Drama</CategoryItem>
+        </CategoryList>
+
+        <BookList>
+          <CompactCard size="md" />
+          <CompactCard size="md" />
+          <CompactCard size="md" />
+          <CompactCard size="md" />
+          <CompactCard size="md" />
+          <CompactCard size="md" />
+        </BookList>
       </ExploreSection>
     </Container>
   )
