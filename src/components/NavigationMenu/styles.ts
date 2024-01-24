@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { styled } from '@/styles/global'
 
 export const MenuContainer = styled('nav', {
@@ -21,7 +22,7 @@ export const NavigationBox = styled('div', {
   flexDirection: 'column',
 })
 
-export const NavigationLink = styled('a', {
+export const NavigationLink = styled(Link, {
   cursor: 'pointer',
   fontSize: '$md',
   width: '100%',
@@ -29,6 +30,7 @@ export const NavigationLink = styled('a', {
   gap: '$4',
   fontWeight: '$regular',
   color: '$gray400',
+  textDecoration: 'none',
 
   '& + &': {
     marginTop: '$6',

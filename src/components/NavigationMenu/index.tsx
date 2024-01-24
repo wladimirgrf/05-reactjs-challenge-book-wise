@@ -1,5 +1,6 @@
 import { Binoculars, ChartLineUp, SignIn } from '@phosphor-icons/react'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 
 import {
   Button,
@@ -11,15 +12,17 @@ import {
 import Logo from '../../assets/logo.svg'
 
 export function NavigationMenu() {
+  const pathname = usePathname()
+
   return (
     <MenuContainer>
       <Image src={Logo} alt="Book Wise Logo" />
 
       <NavigationBox>
-        <NavigationLink active>
+        <NavigationLink href="/home" active={pathname === '/home'}>
           <ChartLineUp size={24} /> Home
         </NavigationLink>
-        <NavigationLink>
+        <NavigationLink href="/explore" active={pathname === '/explore'}>
           <Binoculars size={24} /> Explore
         </NavigationLink>
       </NavigationBox>
