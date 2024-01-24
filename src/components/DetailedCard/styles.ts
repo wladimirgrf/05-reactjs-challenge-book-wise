@@ -2,13 +2,19 @@ import { styled } from '@/styles/global'
 
 export const CardContainer = styled('article', {
   width: '100%',
-  maxWidth: 608,
   padding: '$6',
+  gap: '$5',
   borderRadius: '$md',
 
   display: 'flex',
   backgroundColor: '$gray600',
-  gap: '$5',
+
+  border: '2px solid transparent',
+  cursor: 'pointer',
+
+  '&:hover': {
+    borderColor: '$gray500',
+  },
 })
 
 export const BookRating = styled('div', {

@@ -4,12 +4,17 @@ import { styled } from '@/styles/global'
 
 export const CardContainer = styled('article', {
   padding: '$5',
+  gap: '$5',
   borderRadius: '$md',
-
   display: 'grid',
   gridTemplateColumns: 'auto 1fr',
   backgroundColor: '$gray700',
-  gap: '$5',
+  border: '2px solid transparent',
+  cursor: 'pointer',
+
+  '&:hover': {
+    borderColor: '$gray600',
+  },
 
   variants: {
     size: {

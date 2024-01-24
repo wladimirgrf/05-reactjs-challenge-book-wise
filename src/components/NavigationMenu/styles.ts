@@ -22,11 +22,13 @@ export const NavigationBox = styled('div', {
 })
 
 export const NavigationLink = styled('a', {
+  cursor: 'pointer',
   fontSize: '$md',
-  fontWeight: '$bold',
   width: '100%',
   display: 'flex',
   gap: '$4',
+  fontWeight: '$regular',
+  color: '$gray400',
 
   '& + &': {
     marginTop: '$6',
@@ -39,9 +41,16 @@ export const NavigationLink = styled('a', {
     borderRadius: '$full',
   },
 
+  '&:hover': {
+    color: '$gray100',
+  },
+
   variants: {
     active: {
       true: {
+        fontWeight: '$bold',
+        color: '$gray100',
+
         '&::before': {
           background: '$gradient-vertical',
         },

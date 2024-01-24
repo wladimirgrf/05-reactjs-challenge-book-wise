@@ -2,13 +2,18 @@ import { styled } from '@/styles/global'
 
 export const CardContainer = styled('article', {
   width: '100%',
-  maxWidth: 608,
   padding: '$6',
   borderRadius: '$md',
 
   display: 'flex',
   flexDirection: 'column',
   backgroundColor: '$gray700',
+  border: '2px solid transparent',
+  cursor: 'pointer',
+
+  '&:hover': {
+    borderColor: '$gray600',
+  },
 })
 
 export const CardHeader = styled('header', {
