@@ -6,11 +6,14 @@ export const Container = styled('div', {
 })
 
 export const ExploreSection = styled('section', {
-  marginTop: '4.5rem',
-  marginLeft: '6rem',
+  margin: '4.5rem 6rem 0 6rem',
 })
 
 export const Header = styled('header', {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+
   h1: {
     fontSize: '$2xl',
     display: 'flex',
