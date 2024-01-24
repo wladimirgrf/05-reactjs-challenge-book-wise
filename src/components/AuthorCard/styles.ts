@@ -32,13 +32,6 @@ export const AuthorInfo = styled('div', {
   },
 })
 
-export const RatingStars = styled('div', {
-  display: 'flex',
-  flexDirection: 'row',
-  gap: '$1',
-  color: '$purple100',
-})
-
 export const CardBody = styled('div', {
   display: 'flex',
   gap: '$5',

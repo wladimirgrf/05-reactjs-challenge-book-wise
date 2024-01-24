@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Star } from '@phosphor-icons/react'
 
 import bookImage from '../../../public/images/books/arquitetura-limpa.png'
 
@@ -9,8 +8,8 @@ import {
   BookRating,
   BookTitle,
   CardContainer,
-  RatingStars,
 } from './styles'
+import StarRating from '../StarRating'
 
 export function DetailedCard() {
   return (
@@ -28,13 +27,7 @@ export function DetailedCard() {
         <BookRating>
           <span>2 days ago</span>
 
-          <RatingStars>
-            <Star />
-            <Star />
-            <Star />
-            <Star />
-            <Star />
-          </RatingStars>
+          <StarRating rating={2} readOnly />
         </BookRating>
 
         <BookTitle>

@@ -21,13 +21,6 @@ export const BookRating = styled('div', {
   },
 })
 
-export const RatingStars = styled('div', {
-  display: 'flex',
-  flexDirection: 'row',
-  gap: '$1',
-  color: '$purple100',
-})
-
 export const BookDetails = styled('div', {
   display: 'flex',
   flexDirection: 'column',

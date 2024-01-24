@@ -1,14 +1,7 @@
-import { Star } from '@phosphor-icons/react'
-
 import bookImage from '../../../public/images/books/arquitetura-limpa.png'
 
-import {
-  BookDetails,
-  BookImage,
-  BookTitle,
-  CardContainer,
-  RatingStars,
-} from './styles'
+import { BookDetails, BookImage, BookTitle, CardContainer } from './styles'
+import StarRating from '../StarRating'
 
 interface CompactCardProps {
   size: 'sm' | 'md'
@@ -25,13 +18,7 @@ export function CompactCard({ size }: CompactCardProps) {
           <span>J.R.R. Tolkien</span>
         </BookTitle>
 
-        <RatingStars>
-          <Star />
-          <Star />
-          <Star />
-          <Star />
-          <Star />
-        </RatingStars>
+        <StarRating rating={2} readOnly />
       </BookDetails>
     </CardContainer>
   )

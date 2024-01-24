@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Star } from '@phosphor-icons/react'
 
 import {
   AuthorInfo,
@@ -9,11 +8,11 @@ import {
   CardBody,
   CardContainer,
   CardHeader,
-  RatingStars,
 } from './styles'
 
 import bookImage from '../../../public/images/books/arquitetura-limpa.png'
 import { Avatar } from '../Avatar'
+import StarRating from '../StarRating'
 
 export function AuthorCard() {
   return (
@@ -26,13 +25,7 @@ export function AuthorCard() {
           <span>Today</span>
         </AuthorInfo>
 
-        <RatingStars>
-          <Star />
-          <Star />
-          <Star />
-          <Star />
-          <Star />
-        </RatingStars>
+        <StarRating rating={2} readOnly />
       </CardHeader>
 
       <CardBody>
