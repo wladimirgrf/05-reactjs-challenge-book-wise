@@ -9,7 +9,7 @@ import {
   NavigationLink,
   MenuContainer,
 } from './styles'
-import Logo from '../../assets/logo.svg'
+import Logo from '../../assets/logos/app.svg'
 
 export function NavigationMenu() {
   const pathname = usePathname()

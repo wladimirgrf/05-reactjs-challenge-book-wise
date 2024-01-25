@@ -1,4 +1,4 @@
-import bookImage from '../../../public/images/books/arquitetura-limpa.png'
+import bookImage from '../../assets/books/arquitetura-limpa.png'
 
 import { BookDetails, BookImage, BookTitle, CardContainer } from './styles'
 import StarRating from '../StarRating'
