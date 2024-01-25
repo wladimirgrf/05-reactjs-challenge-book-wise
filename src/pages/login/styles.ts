@@ -23,6 +23,7 @@ export const LoginSection = styled('div', {
     display: 'flex',
     fontSize: '$md',
     lineHeight: 1.6,
+    color: '$gray200',
   },
 })
 
@@ -34,8 +35,18 @@ export const LoginBox = styled('div', {
 })
 
 export const LoginItem = styled('div', {
+  color: '$gray200',
   width: '100%',
   padding: '$5 $6',
   backgroundColor: '$gray600',
   borderRadius: '$md',
+  display: 'flex',
+  alignItems: 'center',
+  gap: '$5',
+  fontWeight: '$bold',
+  cursor: 'pointer',
+
+  '&:hover': {
+    backgroundColor: '$gray500',
+  },
 })

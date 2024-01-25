@@ -3,6 +3,10 @@ import Image from 'next/image'
 import banner from '../../../public/banner.png'
 import { Container, LoginBox, LoginItem, LoginSection } from './styles'
 
+import googleIcon from '../../../public/logos/google.svg'
+import githubIcon from '../../../public/logos/github.svg'
+import rocketIcon from '../../../public/logos/rocket.svg'
+
 export default function Login() {
   return (
     <Container>
@@ -13,9 +17,17 @@ export default function Login() {
         <span>Log in or access as a guest.</span>
 
         <LoginBox>
-          <LoginItem>Sign In with Google</LoginItem>
-          <LoginItem>Sign In with Github</LoginItem>
-          <LoginItem>Access as a Guest</LoginItem>
+          <LoginItem>
+            <Image src={googleIcon} alt="google logo" />
+            Sign In with Google
+          </LoginItem>
+          <LoginItem>
+            <Image src={githubIcon} alt="github logo" /> Sign In with Github
+          </LoginItem>
+          <LoginItem>
+            <Image src={rocketIcon} alt="rocket logo" />
+            Access as a Guest
+          </LoginItem>
         </LoginBox>
       </LoginSection>
     </Container>
