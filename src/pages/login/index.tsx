@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import banner from '../../assets/banner.png'
+import banner from '../../../public/banner.png'
 import { Container, LoginBox, LoginItem, LoginSection } from './styles'
 
 export default function Login() {

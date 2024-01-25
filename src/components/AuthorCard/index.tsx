@@ -10,7 +10,7 @@ import {
   CardHeader,
 } from './styles'
 
-import bookImage from '../../assets/books/arquitetura-limpa.png'
+import bookImage from '../../../public/books/arquitetura-limpa.png'
 import { Avatar } from '../Avatar'
 import StarRating from '../StarRating'
 

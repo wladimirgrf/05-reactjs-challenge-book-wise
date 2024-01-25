@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import bookImage from '../../assets/books/arquitetura-limpa.png'
+import bookImage from '../../../public/books/arquitetura-limpa.png'
 
 import {
   BookDescription,
