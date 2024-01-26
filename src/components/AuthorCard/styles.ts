@@ -9,7 +9,6 @@ export const CardContainer = styled('article', {
   flexDirection: 'column',
   backgroundColor: '$gray700',
   border: '2px solid transparent',
-  cursor: 'pointer',
 
   '&:hover': {
     borderColor: '$gray600',

@@ -34,7 +34,8 @@ export const LoginBox = styled('div', {
   gap: '$4',
 })
 
-export const LoginItem = styled('div', {
+export const LoginItem = styled('button', {
+  all: 'unset',
   color: '$gray200',
   width: '100%',
   padding: '$5 $6',
